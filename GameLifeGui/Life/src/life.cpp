@@ -34,43 +34,6 @@ public:
         lifeGui.resize(grid.nRows, grid.nCols);
     }
 
-    // *** Build the GUI for initial generation
-//       void buildGuiGrid(ifstream &in){
-
-//           int noRows, noCols;
-//           string rows, cols, line;
-//           try{
-//               // Get number of rows
-//                 getLine(in, rows);
-//                 getLine(in, cols);
-
-//                 noRows = stringToInteger(rows);
-//                 noCols = stringToInteger(cols);
-
-//                 lifeGui.resize(noRows, noCols);
-//                 //lifeGuiTemp.resize(noRows, noCols);
-
-//                 for(int i =0; i<noRows; i++){
-//                     getLine(in, line);
-
-//                     for(int j =0; j<noCols;j++){
-
-//                         if(line[j] == 'X')
-//                             lifeGui.drawCell(i,j, true);
-//                         else
-//                             lifeGui.drawCell(i,j, false);
-
-//                     }
-
-//                 }
-
-//           }
-//           catch(const exception & e){
-
-//               cout<<"Error in building the GUI Grid"<<endl;
-//           }
-
-//       }
 
 // Print the GUI Board
        void printGuiBoard(Grid<char> grid){
