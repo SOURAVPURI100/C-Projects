@@ -1,7 +1,7 @@
 # C-Projects
 C++ Projects and Code
-1. The Game of Life:
-I built this project under my independent course work CS106B - Programming Abstractions provided by Stanford University. I am taking this course just to learn Programming Abstractions in depth. 
+
+1. The Game of Life: I built this project under my independent course work CS106B - Programming Abstractions provided by Stanford University. I am taking this course just to learn Programming Abstractions in depth. 
 
 The Game of Life is a simulation originally conceived by the British mathematician J. H. Conway in 1970 and popularized by Martin Gardner in his Scientific American column. The game models the life cycle of bacteria using a two-dimensional grid of cells. Given an initial pattern, the game simulates the birth and death of future generations of cells using a set of simple rules. In this project, I implemented a simplified version of Conway's simulation and a basic user interface for watching the bacteria grow over time.
 
